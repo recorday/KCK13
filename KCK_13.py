@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import aseegg as ag
 
-dane=pd.read_excel(r"D:\Users\dom\Desktop\HCI-13\sub1trial13.xlsx", sep=',t', delimiter=',')
+dane=pd.read_excel(r"sub1trial13.xlsx", sep=',t', delimiter=',')
 # print(dane)
 kolumnab=dane["sygn_1"]
 kolumnaf=dane["liczby"]
